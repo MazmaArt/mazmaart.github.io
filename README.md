@@ -1,31 +1,22 @@
 <!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>Chi sono - MazmaArt</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; background-color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+  <!-- Logo -->
+  <div>
+    <a href="/">
+      <img src="logo-da-usare-nel-sito-principale-mazma-art.webp" alt="Logo Mazma Art" style="height: 120px;">
+    </a>
+  </div>
+
+  <!-- Navigazione -->
   <nav>
-    <div class="logo">MazmaArt</div>
-    <ul>
-      <li><a href="chisono.html">Chi sono</a></li>
-      <li><a href="fotografia.html">Fotografia</a></li>
-      <li><a href="cloisonne.html">Cloisonné</a></li>
-      <li><a href="contatti.html">Contatti</a></li>
+    <ul style="list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0;">
+      <li><a href="#home" style="text-decoration: none; color: #333;">Home</a></li>
+      <li><a href="#opere" style="text-decoration: none; color: #333;">Opere</a></li>
+      <li><a href="#ispirazione" style="text-decoration: none; color: #333;">Ispirazione</a></li>
+      <li><a href="#contatti" style="text-decoration: none; color: #333;">Contatti</a></li>
     </ul>
   </nav>
-  <!-- Stesso nav e footer, cambia solo il titolo e il contenuto -->
-<title>Fotografia - MazmaArt</title>
-<h1>Fotografia</h1>
-<p>Galleria di fotografie artistiche e personali.</p>
-<title>Cloisonné - MazmaArt</title>
-<h1>Cloisonné</h1>
-<p>Opere create con tecnica cloisonné: smalto, rame, simbolismo.</p>
-<title>Contatti - MazmaArt</title>
-<h1>Contatti</h1>
-<p>Email: <a href="mailto:mazmaart@gmail.com">mazmaart@gmail.com</a></p>
-<p>Instagram: <a href="https://www.instagram.com/mazmaart.grazi" target="_blank">@mazmaart.grazi</a></p>
+</header>
 
 
   <style>
