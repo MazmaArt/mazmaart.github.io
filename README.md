@@ -15,6 +15,19 @@
       <li><a href="contatti.html">Contatti</a></li>
     </ul>
   </nav>
+  <!-- Stesso nav e footer, cambia solo il titolo e il contenuto -->
+<title>Fotografia - MazmaArt</title>
+<h1>Fotografia</h1>
+<p>Galleria di fotografie artistiche e personali.</p>
+<title>Cloisonné - MazmaArt</title>
+<h1>Cloisonné</h1>
+<p>Opere create con tecnica cloisonné: smalto, rame, simbolismo.</p>
+<title>Contatti - MazmaArt</title>
+<h1>Contatti</h1>
+<p>Email: <a href="mailto:mazmaart@gmail.com">mazmaart@gmail.com</a></p>
+<p>Instagram: <a href="https://www.instagram.com/mazmaart.grazi" target="_blank">@mazmaart.grazi</a></p>
+
+
   <style>
     * {
       box-sizing: border-box;
