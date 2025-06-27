@@ -150,7 +150,7 @@
   <section id="contact">
     <h2>Contatti</h2>
     <p>Email: <a href="mailto:mazmaart@gmail.com">mazmaart@gmail.com</a></p>
-    <p>Instagram: <a href="https://www.instagram.com/mazmaart.grazi" target="_blank">@mazmaart.grazi</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/mazmaart" target="_blank">@mazmaart.grazi</a></p>
   </section>
 
   <footer>
