@@ -61,7 +61,7 @@
 <body>
   <header>
   <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-    <img src="images/logo-da-usare-nel-sito-principale-mazma-art.webp" alt="Logo MazmaArt" style="height: 300px;" />
+    <img src="logo-da-usare-nel-sito-principale-mazma-art.webp" alt="Logo MazmaArt" style="height: 300px;" />
     <h1>MazmaArt</h1>
   </div>
   <p>"L'arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è."</p>
