@@ -60,9 +60,12 @@
 </head>
 <body>
   <header>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <img src="images/logo-da-usare-nel-sito-principale-mazma-art.web" alt="Logo MazmaArt" style="height: 60px;" />
     <h1>MazmaArt</h1>
-    <p>"L'arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è."</p>
-  </header>
+  </div>
+  <p>"L'arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è."</p>
+</header>
 
   <div class="hero">
     <img src="images/hero.jpg" alt="Opera principale MazmaArt" />
