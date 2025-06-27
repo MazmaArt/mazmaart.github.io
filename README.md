@@ -5,50 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MazmaArt</title>
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
+    }
+    body {
       font-family: 'Helvetica Neue', sans-serif;
       background-color: #fff;
-      color: #333;
+      color: #111;
+      line-height: 1.6;
     }
     header {
+      height: 100vh;
+      background: url('images/hero.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
-      padding: 4rem 1rem 2rem;
+      color: white;
     }
     header h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-size: 3.5rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 8px;
     }
-    header p {
-      font-size: 1.2rem;
-      font-style: italic;
-      color: #666;
-    }
-    .hero {
+    nav {
+      position: fixed;
+      top: 0;
       width: 100%;
-      max-width: 900px;
-      margin: 2rem auto;
+      background-color: white;
+      padding: 1rem 2rem;
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      z-index: 1000;
     }
-    .hero img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
     }
     section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      padding: 6rem 2rem 4rem;
+      max-width: 900px;
+      margin: 0 auto;
     }
     section h2 {
-      font-size: 1.8rem;
-      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
     footer {
+      background: #f9f9f9;
+      padding: 2rem;
       text-align: center;
-      padding: 2rem 1rem;
-      border-top: 1px solid #eee;
       font-size: 0.9rem;
       color: #555;
     }
@@ -59,6 +89,32 @@
   </style>
 </head>
 <body>
+  <nav>
+    <div class="logo">MazmaArt</div>
+    <ul>
+      <li><a href="#about">Chi sono</a></li>
+      <li><a href="#works">Opere</a></li>
+      <li><a href="#contact">Contatti</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Arte che parla all'anima</h1>
+  </header>
+
+  <section id="about">
+    <h2>Chi sono</h2>
+    <p>Ciao! Sono MazmaArt, artista specializzata in cloisonné e tecniche decorative ispirate al simbolismo e alla materia. Creo opere che fondono luce, metallo e colore per evocare emozioni profonde.</p>
+  </section>
+
+  <section id="works">
+    <h2>Opere</h2>
+    <div class="gallery">
+      <img src="images/opera1.jpg" alt="Opera 1">
+      <img src="images/opera2.jpg" alt="Opera 2">
+      <img src="images/opera3.jpg" alt="Opera 3">
+    </div>
+  </section>
   <header>
   <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <img src="logo-da-usare-nel-sito-principale-mazma-art.webp" alt="Logo MazmaArt" style="height: 120px;" />
@@ -67,22 +123,17 @@
   <p>"L'arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è."</p>
 </header>
 
-  <div class="hero">
-    <img src="images/hero.jpg" alt="Opera principale MazmaArt" />
-  </div>
-
-  <section>
-    <h2>Chi sono</h2>
-    <p>Sono MazmaArt, artista contemporanea appassionata di cloisonné e arte materica. Il mio lavoro fonde tecnica, luce e significato in opere che raccontano mondi interiori.</p>
-  </section>
-
-  <section>
-    <h2>Opere</h2>
-    <p>Presto troverai qui una selezione delle mie creazioni. Stay tuned!</p>
+  <section id="contact">
+    <h2>Contatti</h2>
+    <p>Email: <a href="mailto:mazmaart@gmail.com">mazmaart@gmail.com</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/mazmaart.grazi" target="_blank">@mazmaart.grazi</a></p>
   </section>
 
   <footer>
-    <p>Contatti: <a href="mailto:mazmaart@gmail.com">mazmaart@gmail.com</a> &bull; <a href="https://www.instagram.com/mazmaart.grazi" target="_blank">Instagram @mazmaart.grazi</a></p>
+    <p>&copy; 2025 MazmaArt. Tutti i diritti riservati.</p>
   </footer>
 </body>
 </html>
+ 
+
+  
