@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MazmaArt</title>
+  <meta charset="UTF-8">
+  <title>Chi sono - MazmaArt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">MazmaArt</div>
+    <ul>
+      <li><a href="chisono.html">Chi sono</a></li>
+      <li><a href="fotografia.html">Fotografia</a></li>
+      <li><a href="cloisonne.html">Cloisonné</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+  </nav>
   <style>
     * {
       box-sizing: border-box;
